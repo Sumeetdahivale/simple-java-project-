@@ -64,6 +64,7 @@
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.5.0</version>
             </plugin>
+            <plugin>
             <configuration>
                 <artifactItems>
                     <artifactItem>
@@ -84,6 +85,7 @@
                     </artifactItem>
                 </artifactItems>
             </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
