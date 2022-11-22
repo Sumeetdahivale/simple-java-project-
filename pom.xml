@@ -25,6 +25,11 @@
             <artifactId>javafx-controls</artifactId>
             <version>17.0.2</version>
         </dependency>
+             <dependency>
+  <groupId>org.apache.maven</groupId>
+  <artifactId>maven-artifact</artifactId>
+  <version>3.5</version>
+</dependency>
         <!--ArcGIS dependencies -->
         <dependency>
             <groupId>com.esri.arcgisruntime</groupId>
