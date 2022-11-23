@@ -85,16 +85,12 @@
                     </artifactItem>
                 </artifactItems>
             </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
                     <release>11</release>
                 </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
@@ -108,8 +104,6 @@
                 <configuration>
                     <mainClass>com.mycompany.app.App</mainClass>
                 </configuration>
-            </plugin>
-            <plugin>
                 <groupId>io.takari</groupId>
                 <artifactId>maven</artifactId>
                 <version>0.7.4</version>
